@@ -3,7 +3,7 @@ services:
   name: hyde-example
   runtime: static
   repo: https://github.com/robdimarco-render/hyde-example
-  buildCommand: php hyde build
+  buildCommand: php hyde-example build
   staticPublishPath: _site
 version: "1"
 
