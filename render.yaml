@@ -1,0 +1,9 @@
+services:
+- type: web
+  name: hyde-example
+  runtime: static
+  repo: https://github.com/robdimarco-render/hyde-example
+  buildCommand: php hyde build
+  staticPublishPath: _site
+version: "1"
+
